@@ -1,0 +1,16 @@
+body {
+    color: white;
+    width: 600px;
+    background-image: url("beautiful-blue-stars-fill.jpg");
+}
+td {
+    text-align: center;
+    vertical-align: top;
+}
+p {
+    text-align: center;
+}
+.contents_option {
+    background-color: GhostWhite;
+    text-align: center;
+}

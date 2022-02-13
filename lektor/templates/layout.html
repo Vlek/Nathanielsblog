@@ -6,8 +6,8 @@
     <div align="center" style="font-size:35px;font-weight:bold;">Nathaniel's Occult Blog</div>
     <table>
         <tbody>
-            <td width="100" bgcolor="black">
-                <img src="{{ 'flyingsaucer.gif' }}">
+            <td width="100" class="sidebar">
+                <img src="{{ '/static/flyingsaucer.gif'|url }}">
                 <p>The Occult is HERE!</p>
                 <hr width="50%">
                 <p>
@@ -37,10 +37,10 @@
                   </header>
                 </p>
             </td>
-            <td width="10" align="center"></td>
+            <td width="10"></td>
             <td width="1" bgcolor="white"></td>
-            <td width="14" align="center"></td>
-            <td width="472" align="center">
+            <td width="14"></td>
+            <td width="472">
                 <div class="page">
                     {% block body %}{% endblock %}
                 </div>
@@ -52,7 +52,7 @@
     </table>
 
     <audio controls autoplay>
-        <source src="engel.mp3" type="audio/mp3">
+        <source src="{{'/static/engel.mp3'|url}}"|url type="audio/mp3">
     </audio>
 
 </body>

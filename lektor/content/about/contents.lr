@@ -2,6 +2,7 @@ title: About this Website
 ---
 body:
 
-This is a website that was made with the Lektor quickstart.
 
-And it does not contain a lot of information.
+This is a fan-made website that tries to be period accurate to 2007 for the Eastern Texas University Savage World campaign.
+
+I have used Lektor for generating the website and used period accurage sources and design as best as I could other than the fact that I am using modern tooling to get the job done as having HTML without CSS or JavaScript is very painful to do, especially since I am doing this as a hobby and I would rather spend the time creating content.
